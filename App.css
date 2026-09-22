@@ -1,0 +1,149 @@
+
+.issue-form {
+  background: white;
+  padding: 25px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.issue-form input,
+.issue-form select,
+.issue-form textarea {
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.issue-form textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.issue-form button {
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background: #222;
+  color: white;
+}
+
+.issue-form button:hover {
+  opacity: 0.85;
+}
+.delete-button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 6px;
+  background: #d32f2f;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.delete-button:hover {
+  opacity: 0.85;
+}
+.priority-badge {
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.priority-badge.high {
+  background: #ffdddd;
+  color: #b00020;
+}
+
+.priority-badge.medium {
+  background: #fff1cc;
+  color: #8a5a00;
+}
+
+.priority-badge.low {
+  background: #ddf5e5;
+  color: #176b35;
+}
+.issue-form label {
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: -8px;
+}
+
+.issue-form input:focus,
+.issue-form select:focus,
+.issue-form textarea:focus {
+  outline: 3px solid #90caf9;
+  border-color: #1976d2;
+}
+
+.filters {
+  background: white;
+  padding: 25px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.filters h2 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.filters input,
+.filters select {
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.filters button {
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background: #222;
+  color: white;
+}
+
+.filters button:hover {
+  opacity: 0.85;
+}
+.dashboard {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.stat-card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.stat-card h3 {
+  margin: 0 0 10px;
+  font-size: 15px;
+}
+
+.stat-card p {
+  margin: 0;
+  font-size: 30px;
+  font-weight: bold;
+}
